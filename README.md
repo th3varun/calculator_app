@@ -1,6 +1,6 @@
 # calculator_app
 
-A new Flutter project.
+A Basic Calculator app project created by using flutter framework in dart with flutter provider.
 
 ## Getting Started
 
