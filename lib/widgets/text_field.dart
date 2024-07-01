@@ -12,7 +12,7 @@ class CustomTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 80),
+      padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 40),
       child: TextField(
         controller: controller,
         decoration: const InputDecoration(
