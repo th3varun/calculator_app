@@ -17,18 +17,15 @@ A simple calculator app built using Flutter. This app supports basic arithmetic 
   <div style="text-align: center;">
     <img src="screenshots/Addition.png" width="300" alt="Addition"/>
     <img src="screenshots/Substraction.png" width="300" alt="Subtraction"/>
-    <p>Addition</p>
-  </div>
-  <div style="text-align: center;">
-    <img src="screenshots/Substraction.png" width="300" alt="Subtraction"/>
-    <p>Subtraction</p>
+    <p>Addition and Subtraction</p>
   </div>
   <div style="text-align: center;">
     <img src="screenshots/Multiplication.png" width="300" alt="Multiplication"/>
-    <p>Multiplication</p>
+    <img src="screenshots/Division.png" width="300" alt="Division"/>
+    <p>Multiplication and Divison</p>
   </div>
   <div style="text-align: center;">
-    <img src="screenshots/Division.png" width="300" alt="Division"/>
+    
     <p>Division</p>
   </div>
 </div>
