@@ -2,39 +2,48 @@ import 'package:flutter/material.dart';
 import 'package:function_tree/function_tree.dart';
 
 class CalculatorProvider extends ChangeNotifier {
-  final compController = TextEditingController();
+  final inputController = TextEditingController();
+  final outputController = TextEditingController();
 
   setValue(String value) {
-    String str = compController.text;
+    String str = inputController.text;
 
     switch (value) {
       case "C":
-        compController.text = str.substring(0, str.length - 1);
+        inputController.text = str.substring(0, str.length - 1);
         break;
       case "AC":
-        compController.clear();
+        inputController.clear();
+        outputController.clear();
         break;
       case "X":
-        compController.text += "*";
+        inputController.text += "*";
         break;
       case "=":
         compute();
         break;
       default:
-        compController.text += value;
+        inputController.text += value;
     }
-    compController.selection = TextSelection.fromPosition(
-        TextPosition(offset: compController.text.length));
+    inputController.selection = TextSelection.fromPosition(
+        TextPosition(offset: inputController.text.length));
   }
 
   compute() {
-    String text = compController.text;
-    compController.text = text.interpret().toString();
+    String text = inputController.text;
+    num result = text.interpret();
+    if (result == result.toInt()) {
+      // Check if the result is a whole number
+      outputController.text = result.toInt().toString();
+    } else {
+      outputController.text = result.toString();
+    }
   }
 
   @override
   void dispose() {
     super.dispose();
-    compController.dispose();
+    inputController.dispose();
+    outputController.dispose();
   }
 }

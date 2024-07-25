@@ -26,8 +26,27 @@ class HomeScreen extends StatelessWidget {
         ),
         body: Column(
           children: [
-            CustomTextField(
-              controller: provider.compController,
+            const SizedBox(
+                height: 90), // Add space above the input and output fields
+            Align(
+              alignment: Alignment.centerRight,
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 20),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.end,
+                  children: [
+                    CustomTextField(
+                      controller: provider.inputController,
+                      isOutput: false, // Add this parameter to distinguish
+                    ),
+                    const SizedBox(height: 0),
+                    CustomTextField(
+                      controller: provider.outputController,
+                      isOutput: true, // Add this parameter to distinguish
+                    ),
+                  ],
+                ),
+              ),
             ),
             const Spacer(),
             Container(
