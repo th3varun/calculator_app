@@ -13,26 +13,23 @@ A simple calculator app built using Flutter. This app supports basic arithmetic 
 ## Screenshots
 
 ### Addition
-![Addition](screenshots/addition.png)
+![Addition](screenshots/Addition.png)
 
 ### Subtraction
-![Subtraction](screenshots/subtraction.png)
+![Subtraction](screenshots/Subtraction.png)
 
 ### Multiplication
-![Multiplication](screenshots/multiplication.png)
+![Multiplication](screenshots/Multiplication.png)
 
 ### Division
-![Division](screenshots/division.png)
+![Division](screenshots/Division.png)
 
-## About
-
-This calculator app is designed to provide a simple and intuitive interface for performing basic arithmetic operations. The input and output fields are positioned on the right side of the screen, with the input field above the output field for a streamlined user experience. The app also includes a custom app icon, giving it a unique and professional look.
 
 ## Installation
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/calculator_app.git
+    git clone https://github.com/th3varun/calculator_app.git
     ```
 2. Navigate to the project directory:
     ```bash
