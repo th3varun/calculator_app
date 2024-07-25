@@ -16,6 +16,7 @@ A simple calculator app built using Flutter. This app supports basic arithmetic 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
   <div style="text-align: center;">
     <img src="screenshots/Addition.png" width="300" alt="Addition"/>
+    <img src="screenshots/Substraction.png" width="300" alt="Subtraction"/>
     <p>Addition</p>
   </div>
   <div style="text-align: center;">
