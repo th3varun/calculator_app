@@ -23,7 +23,6 @@ class _CalaculatorAppState extends State<CalaculatorApp> {
         theme: ThemeData.dark(),
         debugShowCheckedModeBanner: false,
         home: const HomeScreen(),
-        //Checking if updated
       ),
     );
   }
