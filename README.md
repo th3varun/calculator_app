@@ -13,16 +13,16 @@ A simple calculator app built using Flutter. This app supports basic arithmetic 
 ## Screenshots
 
 ### Addition
-![Addition](screenshots/Addition.png)
+<img src="screenshots/Addition.png" width="300"/>
 
 ### Subtraction
-![Subtraction](screenshots/Substraction.png)
+<img src="screenshots/Substraction.png" width="300"/>
 
 ### Multiplication
-![Multiplication](screenshots/Multiplication.png)
+<img src="screenshots/Multiplication.png" width="300"/>
 
 ### Division
-![Division](screenshots/Division.png)
+<img src="screenshots/Division.png" width="300"/>
 
 ## About
 
