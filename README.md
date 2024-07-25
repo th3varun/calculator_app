@@ -24,8 +24,6 @@ A simple calculator app built using Flutter. This app supports basic arithmetic 
     <img src="screenshots/Division.png" width="300" alt="Division"/>
     <p>Multiplication and Divison</p>
   </div>
-  <div style="text-align: center;">
-  </div>
 </div>
 
 ## About
