@@ -12,17 +12,13 @@ A simple calculator app built using Flutter. This app supports basic arithmetic 
 
 ## Screenshots
 
-### Addition
-<img src="screenshots/Addition.png" width="300"/>
-
-### Subtraction
-<img src="screenshots/Substraction.png" width="300"/>
-
-### Multiplication
-<img src="screenshots/Multiplication.png" width="300"/>
-
-### Division
-<img src="screenshots/Division.png" width="300"/>
+### Calculator Screenshots
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="screenshots/Addition.png" width="300" alt="Addition"/>
+  <img src="screenshots/Substraction.png" width="300" alt="Subtraction"/>
+  <img src="screenshots/Multiplication.png" width="300" alt="Multiplication"/>
+  <img src="screenshots/Division.png" width="300" alt="Division"/>
+</div>
 
 ## About
 
