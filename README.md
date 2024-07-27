@@ -12,18 +12,23 @@ A simple calculator app built using Flutter. This app supports basic arithmetic 
 
 ## Screenshots
 
-### Addition
-![Addition](screenshots/Addition.png)
+### Calculator Screenshots
+<div style="display: flex; flex-wrap: wrap; gap: 50px;">
+  <div style="text-align: center;">
+    <img src="screenshots/Addition.png" width="300" alt="Addition"/>
+    <img src="screenshots/Substraction.png" width="300" alt="Subtraction"/>
+    <p>Addition and Subtraction</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="screenshots/Multiplication.png" width="300" alt="Multiplication"/>
+    <img src="screenshots/Division.png" width="300" alt="Division"/>
+    <p>Multiplication and Divison</p>
+  </div>
+</div>
 
-### Subtraction
-![Subtraction](screenshots/Subtraction.png)
+## About
 
-### Multiplication
-![Multiplication](screenshots/Multiplication.png)
-
-### Division
-![Division](screenshots/Division.png)
-
+This calculator app is designed to provide a simple and intuitive interface for performing basic arithmetic operations. The input and output fields are positioned on the right side of the screen, with the input field above the output field for a streamlined user experience. The app also includes a custom app icon, giving it a unique and professional look.
 
 ## Installation
 
